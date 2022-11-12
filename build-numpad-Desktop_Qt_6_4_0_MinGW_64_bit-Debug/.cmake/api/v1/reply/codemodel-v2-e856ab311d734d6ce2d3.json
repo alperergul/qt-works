@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e892bbf3fb9d704d1323.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "numpad",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "numpad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numpad-Debug-2f5ee1d3cab34e5329d0.json",
+					"name" : "numpad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "numpad_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numpad_autogen-Debug-322a9b427cb08e7e9bf8.json",
+					"name" : "numpad_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "numpad_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numpad_autogen_timestamp_deps-Debug-0fb0eac34ed9f4cd321a.json",
+					"name" : "numpad_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "numpad_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numpad_qmlimportscan-Debug-9eccfa2b05e8ea839d1b.json",
+					"name" : "numpad_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alper/AlperProjects/UDEMY/qt/build-numpad-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/alper/AlperProjects/UDEMY/qt/numpad"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

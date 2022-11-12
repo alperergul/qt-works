@@ -1,0 +1,9 @@
+-rootPath
+C:/Users/alper/AlperProjects/UDEMY/qt/numpad
+-cmake-output
+-output-file
+C:/Users/alper/AlperProjects/UDEMY/qt/build-numpad-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_numpad.cmake
+-importPath
+C:/Users/alper/AlperProjects/UDEMY/qt/build-numpad-Desktop_Qt_6_4_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.4.0/mingw_64/./qml
