@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f4b39e89ad30c3a824c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "basic-types",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic-types::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic-types-Debug-036ff42b2a774c483f8b.json",
+					"name" : "basic-types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "basic-types_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic-types_autogen-Debug-c1efdda1af6a69f31299.json",
+					"name" : "basic-types_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "basic-types_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic-types_autogen_timestamp_deps-Debug-bd0ca2991ff40271db87.json",
+					"name" : "basic-types_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "basic-types_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic-types_qmlimportscan-Debug-eed4eec2e320e7069f4f.json",
+					"name" : "basic-types_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alper/AlperProjects/UDEMY/qt/build-basic-types-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/alper/AlperProjects/UDEMY/qt/basic-types"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
