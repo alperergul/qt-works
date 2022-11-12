@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-610f400efc0dda8738d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple_image_viewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_image_viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_image_viewer-Debug-b526f5f1b0774f36779e.json",
+					"name" : "simple_image_viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_image_viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_image_viewer_autogen-Debug-5f810358df27c532e28d.json",
+					"name" : "simple_image_viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_image_viewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_image_viewer_autogen_timestamp_deps-Debug-8f0a586200c997d80661.json",
+					"name" : "simple_image_viewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_image_viewer_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_image_viewer_qmlimportscan-Debug-60f89e37c996fc2f4db6.json",
+					"name" : "simple_image_viewer_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alper/AlperProjects/UDEMY/qt/build-simple_image_viewer-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/alper/AlperProjects/UDEMY/qt/simple_image_viewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

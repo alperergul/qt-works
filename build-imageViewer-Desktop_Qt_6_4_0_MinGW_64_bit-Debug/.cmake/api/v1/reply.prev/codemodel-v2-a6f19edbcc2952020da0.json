@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5f0cdfe8dcb0402efeee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imageViewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imageViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imageViewer-Debug-8e5261046a3c00f2315c.json",
+					"name" : "imageViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imageViewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imageViewer_autogen-Debug-2418580cfab5a29963c5.json",
+					"name" : "imageViewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imageViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imageViewer_autogen_timestamp_deps-Debug-4f391be3afefda157e7c.json",
+					"name" : "imageViewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imageViewer_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imageViewer_qmlimportscan-Debug-b15bc647c1f079e610aa.json",
+					"name" : "imageViewer_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alper/AlperProjects/UDEMY/qt/build-imageViewer-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/alper/AlperProjects/UDEMY/qt/imageViewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,9 @@
+-rootPath
+C:/Users/alper/AlperProjects/UDEMY/qt/simple_image_viewer
+-cmake-output
+-output-file
+C:/Users/alper/AlperProjects/UDEMY/qt/build-simple_image_viewer-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_simple_image_viewer.cmake
+-importPath
+C:/Users/alper/AlperProjects/UDEMY/qt/build-simple_image_viewer-Desktop_Qt_6_4_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.4.0/mingw_64/./qml
