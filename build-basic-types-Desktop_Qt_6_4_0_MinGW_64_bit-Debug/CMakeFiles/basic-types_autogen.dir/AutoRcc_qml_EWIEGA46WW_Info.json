@@ -8,6 +8,7 @@
 	"INPUTS" : 
 	[
 		"C:/Users/alper/AlperProjects/UDEMY/qt/basic-types/main.qml",
+		"C:/Users/alper/AlperProjects/UDEMY/qt/basic-types/MyButton.qml",
 		"C:/Users/alper/AlperProjects/UDEMY/qt/basic-types/ANTE.jpg"
 	],
 	"LOCK_FILE" : "C:/Users/alper/AlperProjects/UDEMY/qt/build-basic-types-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/basic-types_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",

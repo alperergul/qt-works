@@ -190,7 +190,7 @@ build basic-types_autogen/timestamp basic-types_autogen/mocs_compilation.cpp | $
 #############################################
 # Custom command for basic-types_autogen\EWIEGA46WW\qrc_qml.cpp
 
-build basic-types_autogen/EWIEGA46WW/qrc_qml.cpp | ${cmake_ninja_workdir}basic-types_autogen/EWIEGA46WW/qrc_qml.cpp: CUSTOM_COMMAND C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/qml.qrc CMakeFiles/basic-types_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/main.qml C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/ANTE.jpg C$:/Qt/6.4.0/mingw_64/./bin/rcc.exe || basic-types_autogen basic-types_autogen_timestamp_deps basic-types_qmlimportscan
+build basic-types_autogen/EWIEGA46WW/qrc_qml.cpp | ${cmake_ninja_workdir}basic-types_autogen/EWIEGA46WW/qrc_qml.cpp: CUSTOM_COMMAND C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/qml.qrc CMakeFiles/basic-types_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/main.qml C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/MyButton.qml C$:/Users/alper/AlperProjects/UDEMY/qt/basic-types/ANTE.jpg C$:/Qt/6.4.0/mingw_64/./bin/rcc.exe || basic-types_autogen basic-types_autogen_timestamp_deps basic-types_qmlimportscan
   COMMAND = cmd.exe /C "cd /D C:\Users\alper\AlperProjects\UDEMY\qt\build-basic-types-Desktop_Qt_6_4_0_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/alper/AlperProjects/UDEMY/qt/build-basic-types-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/basic-types_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for qml.qrc
   restat = 1

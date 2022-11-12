@@ -109,13 +109,78 @@ Window {
 
 // **************** MOUSE AREA ******************
 
-    Rectangle{
-        id: myArea
-        color: "blue"
-        width: 200
-        height: 200
+//    Rectangle{
+//        id: myArea
+//        color: "blue"
+//        width: 200
+//        height: 200
 
-        anchors.centerIn: parent
+//        anchors.centerIn: parent
+
+//        MouseArea {
+//            id: myMouse
+//            anchors.fill: parent
+//            acceptedButtons: Qt.LeftButton | Qt.RightButton
+//            hoverEnabled: true
+//            onClicked: {
+//                console.log("Clicked: " + mouse.button)
+//                if(mouse.button === Qt.RightButton) parent.color = "red"
+//                if(mouse.button === Qt.LeftButton) parent.color = "green"
+//            }
+
+//            onDoubleClicked: {
+////                parent.color = "yellow"
+//            }
+//            onPositionChanged: {
+//                console.log("Position X: " + mouseX + " Y: " + mouseY);
+//            }
+//            onEntered: parent.color = "orange"
+//            onExited: parent.color = "yellow"
+//        }
+
+//    }
+
+// ********** CUSTOM COMPONENT ***************
+
+    property var middle: (height / 2) - 50
+
+    MyButton {
+        id: button1
+        x: 100
+        y: middle
+        color: "red"
+        colorClicked: "orange"
+        title: "Click me baby"
     }
+
+
+    MyButton {
+        id: button2
+        x: (parent.width / 2) - (width / 2)
+        y: middle
+        color: "blue"
+        colorClicked: "orange"
+        title: "Click me baby!"
+    }
+
+    MyButton {
+        id: button3
+        x: (parent.width - 200)
+        y: middle
+        color: "yellow"
+        colorClicked: "orange"
+        title: "Click me babyyyyyy!"
+    }
+    MyButton {
+        id: button4
+        x:( parent.width /2) - (width / 2)
+        y: middle + 120
+        color: "lightblue"
+        colorClicked: "orange"
+        title: "Click me <br> <u>babyyy</u>!"
+        width: 450
+        height: 50
+    }
+
 
 }
